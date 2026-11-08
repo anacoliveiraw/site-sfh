@@ -1,0 +1,227 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(10, 10, 10);
+    font-family: sofia sans extra condensed, sans-serif;
+}
+li, a, button {
+    font-size: 18px;
+    color: #fffdfa;
+    text-decoration: none;
+    font-family: sofia sans extra condensed, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    background-color: #101010;
+    
+}
+.logo {
+    height: 90px;
+    width: 80px;
+    left: 4px;
+    position: absolute;
+    top: 10px;
+}
+
+
+
+.nome-navbar {
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 150px;
+}
+.nav-links{
+   list-style: none;
+   
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+button{
+    padding: 10px 60px;
+    background-color: #032619;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+p {
+    font-family: roboto condensed, sans-serif;
+}
+.img-banner {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    border-bottom: 20px solid #032619;
+}
+.img-texto {
+  position: absolute;
+  top: 500px;
+  left: 20px;
+  font-size: 40px;
+  color: white;
+  font-family: sofia sans extra condensed, sans-serif;
+  font-size: 30px;
+}
+.img-texto1 {
+  position: absolute;
+  top: 530px;
+  left: 20px;
+  font-size: 40px;
+  color: white;
+  font-family: roboto condensed, sans-serif;
+}
+.img-texto2 {
+  position: absolute;
+  top: 600px;
+  left: 20px;
+  font-size: 40px;
+  color: white;
+  font-size: 20px;
+  max-width: 500px;
+  font-family: sofia sans extra condensed, sans-serif;
+}
+.sobre-nos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  font-family: sofia sans extra condensed, sans-serif;
+  width: 100%;
+  max-width: 800px;
+padding-top: 40px;
+     
+  
+   
+}
+
+
+
+.texto1 {
+    font-family: sofia sans extra condensed, sans-serif;
+    color: #fff;
+    margin: 30px;
+    padding: 30px;
+    font-size: 12px;
+
+}
+span {
+    color: #00d600;
+}
+.img-sobrenos {
+    width: 35%;
+    height: 600px;
+    margin: 20px;
+}
+.main2 {
+    font-family: sofia sans extra condensed, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin: 0;
+    padding: 0;
+    background-color: #050c0a;
+}
+.titulo-main2 {
+    font-size: 40px;
+    margin: 0;
+    padding: 25px;
+    background-color: #050c0a;
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+    font-family: sofia sans extra condensed, sans-serif;
+}
+.h3-1 {
+    max-width: 200px;
+    margin: 20px;
+    background: rgb(17, 17, 17);
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    border: 2px solid #032619;
+}
+.h3-2 {
+    max-width: 200px;
+    margin: 20px;
+    background: rgb(17, 17, 17);
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    border: 2px solid #032619;
+}
+.h3-3 {
+    max-width: 200px;
+    margin: 20px;
+    background: rgb(17, 17, 17);
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    border: 2px solid #032619;
+}
+.h3-4 {
+    max-width: 200px;
+    margin: 20px;
+    background: rgb(17, 17, 17);
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    border: 2px solid #032619;
+}   
+.img-main2{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.main3 {
+    font-family: sofia sans extra condensed, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #032b1c;
+}
+.section-main3 {
+    margin: 20px;
+}
+.borda {
+    padding: 40px;
+    border-left: 2px solid #075337;
+}
+footer {
+    background-color: #050c0a;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    font-family: sofia sans extra condensed, sans-serif;
+}
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 600px) {
+    li, a button {
+    font-size: 12px;
+    }
+    .logotipo {
+    font-size: 20px;
+}
+}
+
